@@ -1,4 +1,20 @@
 body {
         background-image: url("../images/pawprint_background.png");
-        background-repeat: repeat-y;
+        background-size: 50%;
+        background-repeat: repeat;
+        font-family: 'Short Stack', cursive;
+}
+
+.jumbotron {
+        color: white;
+        background-color: #0466C6;
+        opacity: 98%;
+}
+
+.feed-item {
+        box-shadow: 4px 4px 10px darkslategray;
+}
+
+.juicer-feed, .j-initialized, .j-modern, .j-desktop, .modern, .loaded {
+        padding: 0 20px;
 }
